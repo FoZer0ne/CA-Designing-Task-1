@@ -17,8 +17,10 @@
 6. Enter commands (don't forget to replace *[your_username]* with your GitHub username:
 ```
 git clone https://github.com/zymbaliuk/CA-Designing-Task-1.git
+git init
 git remote rename origin upstream
 git remote add origin https://github.com/[your_username]/CA-Designing-Task-1.git
+git commit -m "initial commit"
 git push origin master
 ```
 
