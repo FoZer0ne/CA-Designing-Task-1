@@ -23,7 +23,7 @@ git init
 git remote rename origin upstream
 git remote add origin https://github.com/[ім'я]/CA-Designing-Task-1.git
 git commit -m "initial commit"
-git push origin master
+git push origin main
 ```
 
 7. Copy your repository URL and paste it to chat with teacher.
