@@ -16,7 +16,7 @@
 
 6. Enter commands (don't forget to replace *[ім'я]* with your GitHub username:
 ```
-git git config --global user.name "[ім'я]"
+git config --global user.name "[ім'я]"
 git config --global user.email "[поштова скринька]"
 git clone https://github.com/zymbaliuk/CA-Designing-Task-1.git
 git init
