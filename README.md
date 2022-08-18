@@ -14,15 +14,20 @@
 
 ![image](https://user-images.githubusercontent.com/110683229/185366002-5820e5d2-7d7b-498a-9457-b84bab79b8a9.png)
 
-6. Enter commands (don't forget to replace *[ім'я]* with your GitHub username:
+6. Enter commands (don't forget to replace *[name]* with your GitHub username:
 ```
-git config --global user.name "[ім'я]"
-git config --global user.email "[поштова скринька]"
 git clone https://github.com/zymbaliuk/CA-Designing-Task-1.git
-git init
-git remote rename origin upstream
-git remote add origin https://github.com/[ім'я]/CA-Designing-Task-1.git
-git commit -m "initial commit"
+
+git config --global user.name "[name]"
+git config --global user.email "[email]"
+
+git remote rm origin
+git remote -v
+
+git remote add origin
+git clone https://github.com/[name]/CA-Designing-Task-1.git
+git remote -v 
+
 git push origin main
 ```
 
