@@ -24,11 +24,18 @@ git config --global user.email "[email]"
 git remote rm origin
 git remote -v
 
-git remote add origin
-git clone https://github.com/[name]/CA-Designing-Task-1.git
+git remote add origin https://github.com/[name]/CA-Designing-Task-1.git
 git remote -v 
 
 git push origin main
 ```
-
+In case of next error:
+```
+! [rejected]        main -> main (fetch first)
+```
+Run:
+```
+git pull https://github.com/[name]/CA-Designing-Task-1.git
+git push origin main
+```
 7. Copy your repository URL and paste it to chat with teacher.
