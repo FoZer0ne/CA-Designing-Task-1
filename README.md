@@ -18,6 +18,8 @@
 ```
 git clone https://github.com/zymbaliuk/CA-Designing-Task-1.git
 
+cd CA-Designing-Task-1
+
 git config --global user.name "[name]"
 git config --global user.email "[email]"
 
